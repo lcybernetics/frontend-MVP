@@ -7,6 +7,7 @@ import {
 	Route,
 	Link,
 } from "react-router-dom"
+import { GlobalStyles } from "./theme"
 
 const router = createBrowserRouter([
 	{
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
 	<React.StrictMode>
+		<GlobalStyles />
 		<RouterProvider router={router} />
 	</React.StrictMode>
 )

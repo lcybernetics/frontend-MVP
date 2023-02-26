@@ -16,7 +16,7 @@ export const IdentitySpace = () => {
 			</Badge>
 			<UserDataSection>
 				<p>{`${user.firstName} ${user.lastName}`}</p>
-				<Avatar size="large" icon={<UserOutlined />} />
+				<Avatar icon={<UserOutlined />} />
 			</UserDataSection>
 		</IdentitySpaceWrapper>
 	)
